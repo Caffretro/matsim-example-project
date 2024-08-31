@@ -35,7 +35,9 @@ public class RunMatsim{
 
 		Config config;
 		if ( args==null || args.length==0 || args[0]==null ){
-			config = ConfigUtils.loadConfig( "scenarios/equil/config.xml" );
+//			config = ConfigUtils.loadConfig( "scenarios/equil/config.xml" );
+			config = ConfigUtils.loadConfig( "scenarios/SmartSim_Comparison/config.xml" );
+
 		} else {
 			config = ConfigUtils.loadConfig( args );
 		}

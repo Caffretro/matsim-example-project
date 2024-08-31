@@ -24,3 +24,7 @@ hs_err_pid*
 # IntelliJ
 /.idea/
 *.iml
+
+.DS_Store
+scenarios/equil/output
+scenarios/SmartSim_Comparison/output
