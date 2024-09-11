@@ -12,19 +12,19 @@
 	</module>
 
 	<module name="plans">
-		<param name="inputPlansFile" value="passengers-30000-private.xml" />
+		<param name="inputPlansFile" value="/Users/caffretro/Ca2+/HKU/HKU-Smart-Mobility-Lab/Development/matsim-example-project/scenarios/SmartSim_Comparison/passengers-30000-private.xml" />
 	</module>
 
-	<module name="controler">
+	<module name="controller">
 		<param name="outputDirectory" value="/Users/caffretro/Ca2+/HKU/HKU-Smart-Mobility-Lab/Development/matsim-example-project/scenarios/SmartSim_Comparison/output" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="1" />
+		<param name="lastIteration" value="0" />
 	</module>
 
 	<module name="qsim">
 		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
 		<param name="startTime" value="00:00:00" />
-		<param name="endTime" value="00:00:00" />
+		<param name="endTime" value="24:00:00" />
 	
 		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
 	</module>
